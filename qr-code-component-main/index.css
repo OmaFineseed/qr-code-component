@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 15px;
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.box-container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.image,
+.code {
+  width: 310px;
+  height: 320px;
+  border-radius: 15px;
+  justify-content: center;
+  align-self: center;
+  margin: 1rem auto;
+
+}
+
+#bold-text {
+  text-align: center;
+  margin: auto;
+  font-family: 'Outfit';
+  font-weight: 700;
+  padding-top: 1.5rem;
+
+
+}
+
+#small-text {
+  text-align: center;
+  margin: auto;
+  font-family: 'Outfit';
+  font-weight: 400;
+  padding: 1.5rem;
+  padding-bottom: 0;
+
+
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*media query for desktop view*/
+@media screen and (min-width:1200px) {
+  body {
+    padding: 5rem;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .box-container {
+    width: 30%;
+    margin: auto;
+    height: 100%;
+  
+  }
+
+}
+@media (min-width:900px) and (max-width:1200px){
+  body {
+    padding: 5rem;
+    margin: auto;
+    height: 100%;
+
+  }
+
+  .box-container {
+    width: 38%;
+    margin: auto;
+    height: 100%;
+
+  }
+}
+@media screen and (min-width:650px) and (max-width:900px){
+  body {
+    padding: 5rem;
+    margin: auto;
+    height: 100%;
+
+  }
+
+  .box-container {
+    width: 55%;
+    margin: auto;
+    height: 100%;
+
+  }
+}
+@media screen and (min-width:500px) and (max-width:650px){
+  body {
+    padding: 5rem;
+    margin: auto;
+    height: 60%;
+
+  }
+
+  .box-container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+
+  }
+}
+@media screen and(min-width:385px) and (max-width:520px){
+  body {
+    padding: 5rem;
+    margin: auto;
+    height: 100%;
+    
+
+  }
+
+  .box-container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+
+  }
+}
